@@ -1,3 +1,8 @@
+:root{
+    --primary-color: black;
+    --padding: 0px;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -22,7 +27,8 @@ main img {
 }
 
 p {
-    padding: 0px;
+    padding: var(--padding);
+    color: var(--primary-color);
 }
 
 main{
@@ -35,7 +41,7 @@ aside{
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: #e6e1e1;
-    color: #0a0a0a;
+    color: var(--primary-color);
 }
 
 aside img{
@@ -49,7 +55,7 @@ main img{
 }
 
 p{
-    padding: 0;
+    padding: var(--padding);
 }
 
 footer{
