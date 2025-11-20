@@ -9,19 +9,47 @@
     --padding: 0px;
 }
 
+header, footer{
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+header, .grid, footer{
+    max-width: 840px;
+    margin: 1rem;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white; 
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 h1 {
     color: darkblue;
+    border-bottom: #0a0a0a;
 }
 
 h2{
@@ -43,14 +71,12 @@ p {
     color: var(--primary-color);
 }
 
-main{
-    max-width: 840px;
-}
-
 aside{
     width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img{
