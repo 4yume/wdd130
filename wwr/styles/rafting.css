@@ -51,7 +51,6 @@ ul{
     justify-content: space-around;
     flex-wrap: nowrap;
     gap: 10px;
-    flex-wrap: nowrap;
 }
 
 
@@ -87,10 +86,6 @@ nav, p, section, article{
 
 .socialmedia a{
     text-decoration: none;
-}
-
-.hero-box{
-    border: 1px solid black; 
 }
 
 .hero-h1{
