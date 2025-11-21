@@ -28,7 +28,7 @@ header{
     grid-template-columns: 300px 2fr;
     align-items: center;
     background-color: plum;
-    border: 1px solid black;
+    border: 1px solid var(--secondary-color);
 }
     
 ul{
@@ -55,7 +55,7 @@ ul{
 
 
 .history-box{
-    border: 1px solid black;
+    border: 1px solid var(--secondary-color);
     margin: 20px 0;
 }
 
@@ -71,7 +71,7 @@ ul{
 }
 
 section{
-    border: 1px solid black;
+    border: 1px solid var(--secondary-color);
 }
 
 h1, h2{
@@ -97,6 +97,7 @@ nav, p, section, article{
     justify-content: space-between;
     align-items: center;
     position: relative;
+    border: 1px solid var(--secondary-color);
 }
 
 .hero img{
@@ -135,7 +136,7 @@ h2{
 }
 
 footer{
-    border: 1px solid black;
+    border: 1px solid var(--secondary-color);
     background-color: plum;
     text-align: center;
     display: flex;
