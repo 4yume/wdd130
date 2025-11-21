@@ -22,7 +22,7 @@ header, .grid, footer{
 .grid{
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 main{
@@ -47,9 +47,12 @@ nav a {
     font-weight: 400;
 }
 
+.grid h1{
+    border-bottom: 1px solid var(--primary-color);
+}
+
 h1 {
     color: darkblue;
-    border-bottom: #0a0a0a;
 }
 
 h2{
@@ -64,6 +67,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -82,16 +86,6 @@ aside{
 aside img{
     width: 220px;
     height: auto;
-}
-
-main img{
-    width: 150px;
-    height: auto;
-    float: right;
-}
-
-p{
-    padding: var(--padding);
 }
 
 footer{
