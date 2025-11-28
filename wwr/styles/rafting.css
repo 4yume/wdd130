@@ -154,3 +154,51 @@ footer p{
     gap: 15px;
 }
 
+
+/* contact.html */
+fieldset{
+    display: grid;
+}
+.company{
+    text-align: center;
+    
+}
+.together{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+iframe{
+    width: 400px;
+    height: 400px;
+}
+
+.together form{
+    display: grid;
+}
+
+
+.radio{
+    display: grid; 
+}
+.radio label{
+    text-align: end;
+}
+
+button{
+    padding: 10px;
+    font-size: large;
+}
+
+
+
+/* employee */
+.employee{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.employee figure img{
+    width: 200px;
+    height: auto;
+    margin: 1rem;
+}
