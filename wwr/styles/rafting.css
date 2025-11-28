@@ -159,6 +159,12 @@ footer p{
 fieldset{
     display: grid;
 }
+textarea,
+input[type="text"],
+input[type="email"]{
+    width: 80%;
+    padding: 6px;
+}
 .company{
     text-align: center;
     
@@ -178,11 +184,14 @@ iframe{
 
 
 .radio{
-    display: grid; 
+    display: grid;
+     
 }
 .radio label{
-    text-align: end;
+    text-align: right;
+    margin: 4px 0;
 }
+
 
 button{
     padding: 10px;
