@@ -159,15 +159,28 @@ footer p{
 fieldset{
     display: grid;
 }
-textarea,
+
 input[type="text"],
 input[type="email"]{
-    width: 80%;
+    width: 65%;
     padding: 6px;
 }
+
+textarea{
+    width: 100%;
+}
+
+.name,
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
 .company{
     text-align: center;
-    
 }
 .together{
     display: grid;
@@ -183,15 +196,25 @@ iframe{
 }
 
 
-.radio{
-    display: grid;
-     
-}
-.radio label{
-    text-align: right;
-    margin: 4px 0;
+.radio-group{
+    display: flex;
+    align-items: center;
+    gap: 85px;
 }
 
+
+.radio{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
 
 button{
     padding: 10px;

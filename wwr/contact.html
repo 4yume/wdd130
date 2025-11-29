@@ -26,9 +26,7 @@
     <main>
         <div class="company">
             <h1>White Water Rafting Company</h1>
-            <p>123 Main River Street Kolob, California</p>
-            <p>+1 999 999 9999</p>
-            <p>info@whitewater.com</p>
+            <p>123 Main River Street <br> Kolob, California <br>+1 999 999 9999 <br>info@whitewater.com</p>
         </div>
 
         <div class="together">
@@ -51,16 +49,26 @@
                 </div>
 
 
-                <p>Message Purpose</p>
-                <div class="radio">
-                    <input type="radio" name="purpose" id="purpose-general" value="General">
-                    <label for="purpose-general">General Inquiry</label>
 
-                    <input type="radio" name="purpose" id="purpose-reservation" value="Reservation Question">
-                    <label for="purpose-reservation">Reservation Question</label>
+                <div class="radio-group">
+                    <div class="message">Message<br> Purpose</div>
 
-                    <input type="radio" name="purpose" id="purpose-website" value="Website Suggestion">
-                    <label for="purpose-website">Website Suggestion</label>
+                    <div class="radio">
+                        <div class="general">
+                            <input type="radio" name="purpose" id="purpose-general" value="General">
+                            <label for="purpose-general">General Inquiry</label>
+                        </div>
+
+                        <div class="reservation">
+                            <input type="radio" name="purpose" id="purpose-reservation" value="Reservation Question">
+                            <label for="purpose-reservation">Reservation Question</label>
+                        </div>
+
+                        <div class="website">
+                            <input type="radio" name="purpose" id="purpose-website" value="Website Suggestion">
+                            <label for="purpose-website">Website Suggestion</label>
+                        </div>
+                    </div>
                 </div>
 
 
@@ -68,8 +76,8 @@
                 <textarea name="message" id="message" rows="3" placeholder="Type here"></textarea>
 
                 <div class="checkbox">
+                    <input type="checkbox" id="checkbox" name="checkbox">
                     <label for="checkbox">Please Subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" name="checkbox" id="checkbox">
                 </div>
 
                 <button type="submit">Get in Touch!</button>
