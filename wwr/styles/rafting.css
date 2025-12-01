@@ -232,3 +232,59 @@ button{
     height: auto;
     margin: 1rem;
 }
+
+
+/* home */
+.sc{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.signup,
+.call{
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+
+.home-name,
+.home-email{
+    margin: 10px;
+}
+.signup button{
+    margin: 10px;
+    width: 75%;
+    height: auto;
+    align-self: center;
+}
+
+.call{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: antiquewhite;
+    gap: 20px;
+}
+.home-grid img{
+    width: 100%;
+    height: auto;
+}
+
+.home-grid figcaption{
+    text-align: center;
+}
