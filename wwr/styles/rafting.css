@@ -288,3 +288,47 @@ button{
 .home-grid figcaption{
     text-align: center;
 }
+
+
+/* Trips */
+.contact-company{
+    text-align: center;
+    margin: 10px 0;
+    background-color: antiquewhite;
+}
+.contact-company p,
+.contact-company a{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+/* table */
+.table{
+    margin: 20px 0;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 10px 0;
+    width: 100%;
+}
+
+table,
+table th,
+table td{
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+
+thead{
+    background-color: black;
+}
+table thead{
+    color: white;
+}
