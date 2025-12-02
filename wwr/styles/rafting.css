@@ -305,7 +305,7 @@ button{
 
 
 /*  */
-.beginner,
+.beginer,
 .intermediate,
 .group{
     display: grid;
@@ -314,6 +314,7 @@ button{
     margin: 10px 0;
 }
 .detailed-trip{
+    padding: 15px;
     text-align: center;
     align-content: space-around ;
 }
